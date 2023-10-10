@@ -1,0 +1,25 @@
+{
+  "name": "convo-connect",
+  "version": "1.0.0",
+  "description": "Chatting Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranju141/ConvoConnect.git"
+  },
+  "author": "Pranjali Gavhale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranju141/ConvoConnect/issues"
+  },
+  "homepage": "https://github.com/pranju141/ConvoConnect#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
