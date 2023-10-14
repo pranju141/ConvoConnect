@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pranju141/ConvoConnect#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "create-react-app": "^1.2.1",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
