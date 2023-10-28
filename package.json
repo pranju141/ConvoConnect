@@ -1,27 +1,30 @@
 {
-  "name": "convo-connect",
-  "version": "1.0.0",
-  "description": "Chatting Application",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon backend/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pranju141/ConvoConnect.git"
-  },
-  "author": "Pranjali Gavhale",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pranju141/ConvoConnect/issues"
-  },
-  "homepage": "https://github.com/pranju141/ConvoConnect#readme",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "create-react-app": "^1.2.1",
-    "dotenv": "^9.0.2",
-    "express": "^4.17.1",
-    "mongoose": "^7.6.1",
-    "nodemon": "^2.0.7"
-  }
+	"name": "convo-connect",
+	"version": "1.0.0",
+	"description": "Chatting Application",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon backend/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pranju141/ConvoConnect.git"
+	},
+	"author": "Pranjali Gavhale",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pranju141/ConvoConnect/issues"
+	},
+	"homepage": "https://github.com/pranju141/ConvoConnect#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"colors": "^1.4.0",
+		"create-react-app": "^1.2.1",
+		"dotenv": "^9.0.2",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^5.12.9",
+		"nodemon": "^2.0.7"
+	}
 }
